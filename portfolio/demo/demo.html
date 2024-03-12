@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+    <!-- JQ Cdn -->
+    <link rel="stylesheet" href="./jq.css">
+    <!-- font osam cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <section class="sidebar">
+        <div class="side-bar position-fixed col-3 bg-dark">
+            <div class="imgs">
+                <img src="./img/IMG_20240202_183528.jpg" alt=""
+                    class="mx-auto d-block mt-4 img-fluid rounded-circle border border-5" width="30%">
+                <h5 class="text-light text-center pt-3 med-sc">Mihir Kamani</h5><br>
+            </div>
+            <div class="man d-flex justify-content-around px-5 med-cs1">
+                <div class="content d-flex justify-content-center align-items-center med-cs2">
+                    <div class="facbook fs-6 text-light"><i class="fa-brands fa-facebook-f"></i></div>
+                </div>
+                <div class="content d-flex justify-content-center align-items-center">
+                    <div class="instagram fs-6 text-light"><i class="fa-brands fa-instagram"></i></div>
+                </div>
+                <div class="content d-flex justify-content-center align-items-center">
+                    <div class="instagram fs-6 text-light"><i class="fa-brands fa-x-twitter"></i></div>
+                </div>
+                <div class="content d-flex justify-content-center align-items-center">
+                    <div class="instagram fs-6 text-light"><i class="fa-brands fa-linkedin"></i></div>
+                </div>
+            </div>
+
+            <div class="menu mt-5 ">
+
+                <div class="sub-manu">
+                    <ul class="fs-6">
+                        <li class="normal">
+                            <a href="#Home">
+                                <p class="text-decoration-none fs-5"><i class="fa-solid fa-house img1-1">&nbsp;&nbsp;</i>
+                                    Home
+                                </p>
+                            </a>
+                        </li>
+                        <li class="normal">
+                            <a href="#About">
+                                <p class="text-decoration-none fs-5"><i class="fa-solid fa-user">&nbsp;&nbsp;</i>About</p>
+                            </a>
+                        </li>
+                        <li class="normal">
+                            <p class="text-decoration-none fs-5"><i class="fa-solid fa-file">&nbsp;&nbsp;</i>Resume</p>
+                        </li>
+                        <li class="normal">
+                            <p class="text-decoration-none fs-5"><i class="fa-solid fa-user-tie">&nbsp;&nbsp;</i>Porfolio</p>
+                        </li>
+                        <li class="normal">
+                            <p class="text-decoration-none fs-5"><i class="fa-solid fa-server"></i>&nbsp;&nbsp;Services</p>
+                        </li>
+                        <li class="normal">
+                            <p class="text-decoration-none fs-5"><i class="fa-solid fa-address-book"></i>&nbsp;&nbsp; Contact
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------- home------------------------------------------------ -->
+    <section id="Home" class="home col-9  float-end">
+        <div class="togl-btn">
+
+            <label for="check">
+
+                <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+                    aria-controls="offcanvasWithBothOptions"><i class="fa-solid fa-bars coman-1" id="btn"></i></button>
+            </label>
+        </div>
+
+        <div class="home-benar col-5 container">
+            <div class="hero-container d-flex justify-content-center  hedline" data-aos="fade-in">
+                <h1 class="text-light Mihir">Mihir Kamani<br><span> i am </span><span id="changingText"></span>
+                </h1>
+            </div>
+            <!----------------------------------------------- 320 size------------------------------------- -->
+
+
+            <div class="offcanvas offcanvas-start " data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                </div>
+
+                <div class="side-bar position-fixed bg-dark">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <div class="imgs">
+                        <img src="./img/IMG_20240202_183528.jpg" alt=""
+                            class="mx-auto d-block mt-4 img-fluid rounded-circle border border-5" width="30%">
+                        <h5 class="text-light text-center pt-3 med-sc">Mihir Kamani</h5><br>
+                    </div>
+                    <div class="man d-flex justify-content-around px-5 med-cs1">
+                        <div class="content d-flex justify-content-center align-items-center med-cs2">
+                            <div class="facbook fs-6 text-light"><i class="fa-brands fa-facebook-f"></i></div>
+                        </div>
+                        <div class="content d-flex justify-content-center align-items-center">
+                            <div class="instagram fs-6 text-light"><i class="fa-brands fa-instagram"></i></div>
+                        </div>
+                        <div class="content d-flex justify-content-center align-items-center">
+                            <div class="instagram fs-6 text-light"><i class="fa-brands fa-x-twitter"></i></div>
+                        </div>
+                        <div class="content d-flex justify-content-center align-items-center">
+                            <div class="instagram fs-6 text-light"><i class="fa-brands fa-linkedin"></i></div>
+                        </div>
+                    </div>
+
+                    <div class="menu mt-5 ">
+
+                        <div class="sub-manu">
+                            <ul class="fs-6">
+                                <li class="normal">
+                                    <p class="text-decoration-none"><i class="fa-solid fa-house img1-1">&nbsp;&nbsp;</i>
+                                        Home
+                                    </p>
+                                </li>
+                                <li class="normal">
+                                    <a href="#About">
+                                        <p class="text-decoration-none"><i
+                                                class="fa-solid fa-user">&nbsp;&nbsp;</i>About</p>
+                                    </a>
+                                </li>
+                                <li class="normal">
+                                    <p class="text-decoration-none"><i class="fa-solid fa-file">&nbsp;&nbsp;</i>Resume
+                                    </p>
+                                </li>
+                                <li class="normal">
+                                    <p class="text-decoration-none"><i
+                                            class="fa-solid fa-user-tie">&nbsp;&nbsp;</i>Porfolio</p>
+                                </li>
+                                <li class="normal">
+                                    <p class="text-decoration-none"><i
+                                            class="fa-solid fa-server"></i>&nbsp;&nbsp;Services</p>
+                                </li>
+                                <li class="normal">
+                                    <p class="text-decoration-none"><i class="fa-solid fa-address-book"></i>&nbsp;&nbsp;
+                                        Contact
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- <div class="offcanvas-body">
+                <div class="imgs">
+                    <img src="./img/IMG_20240202_183528.jpg" alt=""
+                        class="mx-auto d-block mt-4 img-fluid rounded-circle border border-5" width="30%">
+                    <h5 class="text-light text-center pt-3 med-sc">Mihir Kamani</h5><br>
+                </div>
+                <div class="man d-flex justify-content-around px-5 med-cs1">
+                    <div class="content d-flex justify-content-center align-items-center med-cs2">
+                        <div class="facbook fs-6 text-light"><i class="fa-brands fa-facebook-f"></i></div>
+                    </div>
+                    <div class="content d-flex justify-content-center align-items-center">
+                        <div class="instagram fs-6 text-light"><i class="fa-brands fa-instagram"></i></div>
+                    </div>
+                    <div class="content d-flex justify-content-center align-items-center">
+                        <div class="instagram fs-6 text-light"><i class="fa-brands fa-x-twitter"></i></div>
+                    </div>
+                    <div class="content d-flex justify-content-center align-items-center">
+                        <div class="instagram fs-6 text-light"><i class="fa-brands fa-linkedin"></i></div>
+                    </div>
+                </div>
+                <div class="sub-manu ">
+                    <ul class="fs-6 ">
+                        <li class="normal">
+                            <p class="text-decoration-none text-dark"><i
+                                    class="fa-solid fa-house img1-1">&nbsp;&nbsp;</i> Home
+                            </p>
+                        </li>
+                        <li class="normal">
+                            <p class="text-decoration-none text-dark"><i
+                                    class="fa-solid fa-user">&nbsp;&nbsp;</i>About</p>
+                        </li>
+                        <li class="normal">
+                            <p class="text-decoration-none text-dark"><i
+                                    class="fa-solid fa-file">&nbsp;&nbsp;</i>Resume</p>
+                        </li>
+                        <li class="normal">
+                            <p class="text-decoration-none text-dark"><i
+                                    class="fa-solid fa-user-tie">&nbsp;&nbsp;</i>Porfolio</p>
+                        </li>
+                        <li class="normal">
+                            <p class="text-decoration-none text-dark"><i
+                                    class="fa-solid fa-server"></i>&nbsp;&nbsp;Services</p>
+                        </li>
+                        <li class="normal">
+                            <p class="text-decoration-none text-dark"><i
+                                    class="fa-solid fa-address-book"></i>&nbsp;&nbsp; Contact
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+              </div> -->
+            </div>
+
+
+            <div class="off-canva">
+                <div class="320">
+                    <div class="offcanvas offcanvas-start w-100" data-bs-scroll="true" tabindex="-1"
+                        id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----------------------------------------------- 320 size------------------------------------- -->
+        </div>
+        </div>
+    </section>
+
+    <!-- About -->
+
+    <section class="About col-9 float-end bg-light" id="About">
+        <div class="sub-about ">
+            <p class="fs-2 pt-5 ps-5 fw-bold">About</p>
+            <h6 class=" pt- ps-5">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
+                quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
+                alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</h6>
+        </div>
+        <div class="about-disine d-flex ">
+            <div class="about-img  ps-5 d-flex flex-row-">
+                <img src="./img/IMG_20240202_183528.jpg" alt="" class=" mt-5 " width="35%">
+                <div class="about-ditel pt-5 ps-5">
+                    <p class=" text-size text-Primary">Full Stack Developer</p>
+                    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore vitae aliquid
+                        exercitationem, ratione voluptatum totam fuga enim ipsum molestiae.</h6>
+                    <div class="about-ditels pt-2 d-flex ">
+                        <div class="about-sub-ditels abut-coman-4">
+                            <ul class="ps-0">
+                                <li class="text-dark coman-2"><strong>Birthday:</strong> 26/12/2002</li>
+                                <li class="text-dark coman-2"><strong>Website:</strong> www.example.com</li>
+                                <li class="text-dark coman-2"><strong>Phone:</strong> +91 8758186296</li>
+                                <li class="text-dark coman-2"><strong>City:</strong> Rajkot </li>
+                            </ul>
+                        </div>
+                        <div class="about-sub-ditels abut-coman-5">
+                            <ul>
+                                <li class="text-dark coman-2"><strong>Age:</strong> 22</li>
+                                <li class="text-dark coman-2"><strong>Degree:</strong> Master</li>
+                                <li class="text-dark coman-2"><strong>Email:</strong> mihirkamani2612@gmail.com</li>
+                                <li class="text-dark coman-2"><strong>Freelance:</strong> Available </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="end-title">
+                        <h6>Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt
+                            adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+                            Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus
+                            itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis
+                            culpa magni laudantium dolores.</h6>
+                    </div>
+                </div>
+            </div>
+        </div> <br>
+        <section class="Facts">
+            <div class="facts-sub">
+                <p class="fs-2 pt-5 ps-5 fw-bold">Facts</p>
+                <h6 class=" pt- ps-5">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga
+                    eum
+                    quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
+                    alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</h6>
+            </div>
+
+            <!-- counter -->
+            <div id="projectFacts" class="sectionClass">
+                <div class="fullWidth eight columns">
+                    <div class="projectFactsWrap ">
+                        <div class="item wow fadeInUpBig animated animated" data-number="12"
+                            style="visibility: visible;">
+                            <p id="number1" class="number">12</p>
+                            <span></span>
+                            <p class="fs-6">Happy Clients </p>
+                            <h6>consequuntur quae</h6>
+                        </div>
+                        <div class="item wow fadeInUpBig animated animated" data-number="55"
+                            style="visibility: visible;">
+
+                            <p id="number2" class="number">55</p>
+                            <span></span>
+                            <p class="fs-6">Projects</p>
+                            <h6> adipisci atque cum quia aut</h6>
+                        </div>
+                        <div class="item wow fadeInUpBig animated animated" data-number="359"
+                            style="visibility: visible;">
+
+                            <p id="number3" class="number">359</p>
+                            <span></span>
+                            <p class="fs-6">Hours Of Support</p>
+                            <h6>aut commodi quaerat</h6>
+                        </div>
+                        <div class="item wow fadeInUpBig animated animated" data-number="246"
+                            style="visibility: visible;">
+
+                            <p id="number4" class="number">246</p>
+                            <span></span>
+                            <p class="fs-6">Hard Workers</p>
+                            <h6>rerum asperiores dolor</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- counter -->
+        </section>
+        <section class="Skills" style="height: 50%vh;">
+            <div class="sub-Skills">
+                <p class="fs-2 pt-5 ps-5 fw-bold">Skills</p> <br>
+                <h6 class=" pt- ps-5 text-dark">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+                    aliquid fuga eum
+                    quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
+                    alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</h6>
+            </div>
+            <div class="skills-line pt-5 ps-5  d-flex justify-content-around " style="width: 100%; ">
+                <div class="skills-line1" style="width: 100%;">
+                    <p class="fw-bold">HTML</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 90%;"
+                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p class="fw-bold">CSS</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 80%"
+                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p class="fw-bold">JQuery</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 95%"
+                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                </div>
+                <div class="skills-line2" style="width: 100%;">
+                    <p class="fw-bold">BOOSTRAP</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 70%"
+                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p class="fw-bold">c</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 65%"
+                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p class="fw-bold">c++</p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 50%"
+                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- resume -->
+        <section class="resume-main" style="height: 870px;">
+            <div class="sub-resume">
+                <p class="fs-2 pt-5 ps-5 fw-bold">Resume</p> <br>
+                <h6 class=" pt- ps-5 text-dark">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+                    aliquid fuga eum
+                    quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
+                    alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</h6>
+            </div> <br>
+            <div class="resume-ditelsmain d-flex">
+
+                <div class="resume-ditels1 col-6">
+                    <h6>Sumary</h6>
+                    <h5>MIHIR KAMANI</h5>
+                    <p>As a web developer. To secure a responsible and challenging opportunity to
+                        extend my knowledge, Skills and education in a prestigious institusion. In my
+                        work i can add samrt , hard working skill and motivated to my self. Passionate
+                        individual with great interpersonal and communication skill.
+
+                    </p> <br>
+
+                    <h6>Education</h6>
+                    <h5>Bachelor of Commerce</h5>
+                    <p>The B.Com course aims at offering financial literacy, analytical skills, and accounting skills.
+                        To be eligible for admission to the B.Com course, one has to pass class 12th with minimum
+                        passing marks from a recognized education board in India.
+                    </p><br>
+
+                    <h5>Full stack Devloper<br> <span>2023-running</span></h5>
+                    <p>
+                        Seeking a challenging position in the area of IT sectors
+                        that offers me a professional environment while being
+                        resourceful and challenging work helps me to develop
+                        my skills and abilities where I can apply my knowledge.
+                        I like to work in a creative and challenging environment
+                        using the latest technologies where I can constantly
+                        learn and successfully deliver solutions to problems.
+                    </p>
+
+                </div>
+                <div class="resume-ditels2 col-6">
+                    <h6>Intrest Area</h6>
+                    <br>
+                    <ul>
+                        <li class="text-dark">To Become a full stack Devloper</li> <br>
+                        <li class="text-dark">Learning
+                        </li> <br>
+                        <li class="text-dark">Helping
+                        </li><br>
+                        <li class="text-dark">Strong Communication</li> <br>
+                    </ul>
+
+                    <br>
+                    <h6>LANGUAGE</h6> <br>
+                    <ul>
+                        <li class="text-dark">English</li> <br>
+                        <li class="text-dark">Hindi</li> <br>
+                        <li class="text-dark">Gujrati</li>
+                    </ul><br>
+
+                    <h6>CONTACT</h6> <br>
+                    <ul>
+                        <li class="text-dark">Ahmedabad,Gujarat - India</li>
+                        <li class="text-dark">+91 87581 86296</li>
+                        <li class="text-dark">mihirkamani2612@gmail.com</li>
+                        <li class="text-dark"><a
+                                href="https://www.linkedin.com/in/mihir-kamani-8110a0219?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">https://www.linkedin.com/in/mihir-kamani-8110a0219</a>
+                        </li>
+                    </ul>
+                    <br>
+                </div>
+            </div>
+        </section>
+
+        <!--  -->
+        <section class="Services col-11" style="height: 800px;">
+            <div class="sub-Services">
+                <p class="fs-2 pt-5 ps-5 fw-bold">Services</p> <br>
+                <h6 class="ps-5 text-dark">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+                    aliquid fuga eum
+                    quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
+                    alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</h6>
+            </div> <br>
+            <div class="card-services d-flex pt-5 ps-5 row">
+                <div class="carde" style="width:99%;">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body" style="height: 300px;">
+                                    <i class="fa-brands fa-figma display-4 text-center text-primary my-4 d-flex justify-content-center"></i><br>
+                                    <h4 class="card-title text-center">WEB DESIGN</h4><br>
+                                    <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body" style="height: 300px;">
+                                    <i class="fa-solid fa-code display-4 text-primary my-4 d-flex justify-content-center"></i><br>
+                                    <h4 class="card-title text-center">WEB DEVELOPMENT</h4><br>
+                                    <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body" style="height: 300px;">
+                                    <i class="fa-solid fa-gears display-4 text-center text-primary my-4 d-flex justify-content-center"></i><br>
+                                    <h4 class="card-title text-center">WEB MAINTENANCE</h4><br>
+                                    <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            
+
+            </div>
+        </section>
+
+        <section class="Contact" style="height: 800px;">
+            <div class="sub-Services">
+                <p class="fs-2 pt-5 ps-5 fw-bold">Contact</p> <br>
+                <h6 class="ps-5 text-dark">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
+                    aliquid fuga eum
+                    quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit
+                    alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</h6>
+            </div>
+
+            <div class="row col-12 ps-5 pt-5">
+                <div class="contact-img  col-md-6 ">
+                    <img src="./img/IMG_20240202_183528.jpg" alt="" style="width:500px;height: 550px;">
+                </div>
+                <div class="contact-info col-md-6 mx-auto pt-5">
+                    <div class="mb-4">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+                      </div>
+                      <div class="mb-4">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email">
+                      </div>
+                      <div class="mb-4">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Subject">
+                      </div>
+                      <div class="mb-3">
+                        
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message"></textarea>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+
+
+
+
+
+    <!-- JQ CDN -->
+    <script src="../jsfile/jquery-3.7.1.min.js"></script>
+    <script src="./jq.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+@media screen and (max-width: 1024px) {
+    .sidebar{
+        display: none;
+    }
+    .togl-btn{
+        display: block; 
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .side-bar{
+        width: 30%;
+    }
+    .home{
+        width: 100%;
+    }
+    .About{
+        width: 100%;
+    }
+    .sub-about{
+        width: 100%;
+        padding-right: 25px;
+    }
+    .about-disine{
+        width: 100%;
+        padding-right: 22px;
+    }
+    .about-ditel h6{
+        font-size: 15px;
+        width:100%;
+    }
+    .about-ditels ul li{
+        font-size: 15px;
+    }
+
+    .about-img img{
+        width:  30%;
+        height: 260px;
+    }
+    .abut-coman-4 ul li{
+    line-height: 35px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    }
+    .abut-coman-5 ul li{
+        line-height: 35px;
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding-left: 60px;
+        }
+    .med-sc{
+        font-size: 15px;
+    }
+    .med-cs1{
+        font-size: 15px;
+        gap: 40px;
+    }
+    .content{
+        width: 0px;
+        height: 0px;
+    }
+    .sub-manu ul{
+        line-height: 30px;
+        padding-left: 60px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .side-bar {
+        width:25%;
+      }
+      .about-img img{
+       padding-top: 90px;
+    }
+      .sub-manu ul{
+          line-height: 25px;
+          padding-left: 55px;
+      }
+      .abut-coman-4 ul li{
+        line-height: 25px;
+        font-size: 13px;
+        letter-spacing: 1px;
+        }
+      .abut-coman-5 ul li{
+        line-height: 25px;
+        font-size: 13px;
+        letter-spacing: 1px;
+        padding-left: 10px;
+        }
+       
+  }
+  @media screen and (max-width: 320px) {
+    .sidebar{
+        display: none;
+    }
+   
+    .togl-btn{
+        display: block; 
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .coman-1{
+        color: white;
+        font-size: 15px;
+        padding-right: 20px;
+
+    }
+    
+    .side-bar {
+        width:20%;
+      }
+      .med-sc{
+          font-size: 13px;
+      }
+      .med-cs1{
+          font-size: 13px;
+          gap: 35px;
+      }
+      .content{
+          width: 0px;
+          height: 0px;
+      }
+      .sub-manu ul{
+          line-height: 25px;
+          padding-left: 55px;
+      }
+      .home{
+        width: 100%;
+      }
+  }
+  /* about */
